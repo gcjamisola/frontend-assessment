@@ -2,7 +2,13 @@
 
 ## Installation
 
-Install frontend-assessment by initializing modules
+After cloning the project, change your current branch to `dev`
+
+```bash
+  git checkout dev
+```
+
+Install frontend-assessment by initializing modules/dependencies
 
 ```bash
   yarn
@@ -18,9 +24,9 @@ To deploy this project run
 
 ## Tech Stack
 
-**Client:** React, Bootstrap, SASS, TypeScript
+**Client:** React, Bootstrap, SASS, Typescript
 
-**Development:** Vite, Prettier, ESLINT, SASS
+**Development:** Vite, Prettier, ESLint, SASS
 
 ## Bonus Points
 
