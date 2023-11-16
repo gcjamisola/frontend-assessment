@@ -1,0 +1,26 @@
+#nav-tabContent {
+    > div {
+        background-color: #dfdfdf;
+        border-left: 5px solid #bbbbbb;
+    }
+}
+
+@media (max-width: 767px) {
+    #tab-interface {
+        display: none;
+    }
+
+    #accordion-interface {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    #tab-interface {
+        display: block;
+    }
+
+    #accordion-interface {
+        display: none;
+    }
+}

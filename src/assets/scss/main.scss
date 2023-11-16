@@ -1,0 +1,84 @@
+@import './exercise-one';
+@import './exercise-two';
+
+.main-container {
+    height: 500px;
+}
+
+.jumbotron-background {
+    background-image: url('https://via.placeholder.com/1920x650');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+
+    .mask {
+        height: 100%
+    }
+}
+
+.jumbotron-main-text {
+    font-weight: 600;
+}
+
+.jumbotron-sub-text {
+    font-weight: 100;
+}
+
+    
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+@media (max-width: 543px) {
+    .jumbotron-background {
+        background-image: url('https://via.placeholder.com/600x600');
+    }
+
+    .jumbotron-main-text {
+        font-size: 4rem;
+    }
+
+    .jumbotron-sub-text {
+        font-size: 2rem;
+    }
+}
+
+/* Small devices (landscape phones, 544px and up) */
+
+@media (min-width: 544px) {
+    .jumbotron-main-text {
+            font-size: 4rem;
+        }
+    
+    .jumbotron-sub-text {
+        font-size: 2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    .jumbotron-main-text {
+        font-size: 4rem;
+    }
+
+    .jumbotron-sub-text {
+        font-size: 2rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .jumbotron-main-text {
+        font-size: 5rem;
+    }
+
+    .jumbotron-sub-text {
+        font-size: 3rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
